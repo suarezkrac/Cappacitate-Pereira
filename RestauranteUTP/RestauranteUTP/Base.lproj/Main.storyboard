@@ -336,7 +336,7 @@
         <!--Web UTP-->
         <scene sceneID="1YA-hf-jf9">
             <objects>
-                <viewController id="BPA-it-PSZ" sceneMemberID="viewController">
+                <viewController id="BPA-it-PSZ" customClass="BrowserViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="6Ja-rd-g89"/>
                         <viewControllerLayoutGuide type="bottom" id="qgA-W0-Irn"/>
@@ -344,9 +344,31 @@
                     <view key="view" contentMode="scaleToFill" id="OVB-Nl-HBJ">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.0" blue="0.1884988746" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="agR-EC-eFH">
+                                <rect key="frame" x="16" y="28" width="568" height="515"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="30I-Yx-58e">
+                                <rect key="frame" x="290" y="276" width="20" height="20"/>
+                                <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="agR-EC-eFH" firstAttribute="leading" secondItem="OVB-Nl-HBJ" secondAttribute="leadingMargin" id="JcG-ZZ-Xez"/>
+                            <constraint firstItem="agR-EC-eFH" firstAttribute="top" secondItem="6Ja-rd-g89" secondAttribute="bottom" constant="8" id="K6L-aC-ywH"/>
+                            <constraint firstItem="agR-EC-eFH" firstAttribute="centerX" secondItem="30I-Yx-58e" secondAttribute="centerX" id="Qqu-l8-cs9"/>
+                            <constraint firstItem="agR-EC-eFH" firstAttribute="centerY" secondItem="30I-Yx-58e" secondAttribute="centerY" constant="-0.5" id="hWc-lf-I5F"/>
+                            <constraint firstItem="agR-EC-eFH" firstAttribute="trailing" secondItem="OVB-Nl-HBJ" secondAttribute="trailingMargin" id="xIv-xV-6Ow"/>
+                            <constraint firstItem="qgA-W0-Irn" firstAttribute="top" secondItem="agR-EC-eFH" secondAttribute="bottom" constant="8" id="y3h-UT-YBg"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Web UTP" id="0yH-mb-Wzy"/>
+                    <connections>
+                        <outlet property="animacion" destination="30I-Yx-58e" id="uHV-0U-5Mc"/>
+                        <outlet property="browser" destination="agR-EC-eFH" id="CY9-bM-SHY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ss1-hH-Dmb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

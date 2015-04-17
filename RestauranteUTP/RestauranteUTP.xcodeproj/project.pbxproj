@@ -19,6 +19,7 @@
 		ADF64C761AE183EC0079A240 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADF64C751AE183EC0079A240 /* logo.jpeg */; };
 		ADF64C781AE19ACD0079A240 /* break-350-300x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ADF64C771AE19ACD0079A240 /* break-350-300x300.jpg */; };
 		ADF64C7B1AE1A0470079A240 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF64C7A1AE1A0470079A240 /* ModalViewController.m */; };
+		ADF64C7E1AE1A3FC0079A240 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF64C7D1AE1A3FC0079A240 /* BrowserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		ADF64C771AE19ACD0079A240 /* break-350-300x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "break-350-300x300.jpg"; sourceTree = "<group>"; };
 		ADF64C791AE1A0470079A240 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
 		ADF64C7A1AE1A0470079A240 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+		ADF64C7C1AE1A3FC0079A240 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserViewController.h; sourceTree = "<group>"; };
+		ADF64C7D1AE1A3FC0079A240 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +77,8 @@
 		ADF64C3F1AE17D9A0079A240 = {
 			isa = PBXGroup;
 			children = (
+				ADF64C7C1AE1A3FC0079A240 /* BrowserViewController.h */,
+				ADF64C7D1AE1A3FC0079A240 /* BrowserViewController.m */,
 				ADF64C791AE1A0470079A240 /* ModalViewController.h */,
 				ADF64C7A1AE1A0470079A240 /* ModalViewController.m */,
 				ADF64C4A1AE17D9A0079A240 /* RestauranteUTP */,
@@ -242,6 +247,7 @@
 			files = (
 				ADF64C7B1AE1A0470079A240 /* ModalViewController.m in Sources */,
 				ADF64C541AE17D9A0079A240 /* ViewController.m in Sources */,
+				ADF64C7E1AE1A3FC0079A240 /* BrowserViewController.m in Sources */,
 				ADF64C511AE17D9A0079A240 /* AppDelegate.m in Sources */,
 				ADF64C4E1AE17D9A0079A240 /* main.m in Sources */,
 			);
