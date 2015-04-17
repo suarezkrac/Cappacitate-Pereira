@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
+        <development version="6100" identifier="xcode"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
@@ -22,11 +23,37 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFe-zU-bx3">
+                                <rect key="frame" x="272" y="137" width="56" height="30"/>
+                                <state key="normal" title="Ingresar">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y0V-ru-630">
+                                <rect key="frame" x="252" y="99" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="PpR-lg-2vI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese su nombre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5T-VH-4l4">
+                                <rect key="frame" x="229" y="70" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Lyn-Qn-2tl" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="7aO-1R-AAo"/>
+                            <constraint firstItem="y0V-ru-630" firstAttribute="top" secondItem="Y5T-VH-4l4" secondAttribute="bottom" constant="8" id="G9C-nd-z00"/>
+                            <constraint firstItem="Y5T-VH-4l4" firstAttribute="top" secondItem="Lyn-Qn-2tl" secondAttribute="bottom" constant="21" id="Lln-n8-xO0"/>
                             <constraint firstAttribute="centerX" secondItem="Lyn-Qn-2tl" secondAttribute="centerX" constant="5" id="Pbw-NP-cep"/>
+                            <constraint firstItem="IFe-zU-bx3" firstAttribute="top" secondItem="y0V-ru-630" secondAttribute="bottom" constant="8" id="Sqp-Ax-G3Y"/>
+                            <constraint firstItem="Lyn-Qn-2tl" firstAttribute="centerX" secondItem="Y5T-VH-4l4" secondAttribute="centerX" constant="-5.5" id="VJQ-IM-uhh"/>
+                            <constraint firstItem="y0V-ru-630" firstAttribute="centerX" secondItem="IFe-zU-bx3" secondAttribute="centerX" constant="0.5" id="p2g-r6-xn3"/>
+                            <constraint firstItem="y0V-ru-630" firstAttribute="centerX" secondItem="Y5T-VH-4l4" secondAttribute="centerX" id="uqc-zM-nmV"/>
                         </constraints>
                     </view>
                 </viewController>
