@@ -28,6 +28,9 @@
                                 <state key="normal" title="Ingresar">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="welcomeUser:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qHC-DG-qEv"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="y0V-ru-630">
                                 <rect key="frame" x="252" y="99" width="97" height="30"/>
@@ -39,6 +42,12 @@
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingrese su nombre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5T-VH-4l4">
                                 <rect key="frame" x="229" y="70" width="143" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rfy-xS-j5G">
+                                <rect key="frame" x="279" y="209" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -56,6 +65,10 @@
                             <constraint firstItem="y0V-ru-630" firstAttribute="centerX" secondItem="Y5T-VH-4l4" secondAttribute="centerX" id="uqc-zM-nmV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="resultText" destination="Rfy-xS-j5G" id="fiJ-Pk-GFl"/>
+                        <outlet property="userTextFiel" destination="y0V-ru-630" id="obQ-vp-gHh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

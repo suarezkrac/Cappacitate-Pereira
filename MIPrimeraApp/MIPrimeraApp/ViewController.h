@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) IBOutlet UITextField *userTextFiel;
+
+@property (strong, nonatomic) IBOutlet UILabel *resultText;
+
+- (IBAction)welcomeUser:(id)sender;
 
 @end
 

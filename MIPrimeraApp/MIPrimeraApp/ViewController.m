@@ -14,6 +14,7 @@
 
 @implementation ViewController
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -69,4 +70,9 @@ NSDictionary * car = @{@"marca": @"mazda", @"modelo": @"2007", @"placa" : @"JJJ1
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)welcomeUser:(id)sender {
+    _resultText.text = _userTextFiel.text;
+    //self.resultText.text = self.userTextFiel.text;
+    
+}
 @end
