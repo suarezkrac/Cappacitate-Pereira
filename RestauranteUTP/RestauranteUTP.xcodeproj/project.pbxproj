@@ -14,6 +14,9 @@
 		ADF64C591AE17D9A0079A240 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF64C581AE17D9A0079A240 /* Images.xcassets */; };
 		ADF64C5C1AE17D9A0079A240 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADF64C5A1AE17D9A0079A240 /* LaunchScreen.xib */; };
 		ADF64C681AE17D9B0079A240 /* RestauranteUTPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADF64C671AE17D9B0079A240 /* RestauranteUTPTests.m */; };
+		ADF64C731AE180CE0079A240 /* menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF64C711AE180CE0079A240 /* menu_icon.png */; };
+		ADF64C741AE180CE0079A240 /* menu_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADF64C721AE180CE0079A240 /* menu_icon@2x.png */; };
+		ADF64C761AE183EC0079A240 /* logo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = ADF64C751AE183EC0079A240 /* logo.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		ADF64C611AE17D9B0079A240 /* RestauranteUTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestauranteUTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF64C661AE17D9B0079A240 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADF64C671AE17D9B0079A240 /* RestauranteUTPTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestauranteUTPTests.m; sourceTree = "<group>"; };
+		ADF64C711AE180CE0079A240 /* menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu_icon.png; sourceTree = "<group>"; };
+		ADF64C721AE180CE0079A240 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
+		ADF64C751AE183EC0079A240 /* logo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,9 @@
 				ADF64C521AE17D9A0079A240 /* ViewController.h */,
 				ADF64C531AE17D9A0079A240 /* ViewController.m */,
 				ADF64C551AE17D9A0079A240 /* Main.storyboard */,
+				ADF64C751AE183EC0079A240 /* logo.jpeg */,
+				ADF64C711AE180CE0079A240 /* menu_icon.png */,
+				ADF64C721AE180CE0079A240 /* menu_icon@2x.png */,
 				ADF64C581AE17D9A0079A240 /* Images.xcassets */,
 				ADF64C5A1AE17D9A0079A240 /* LaunchScreen.xib */,
 				ADF64C4B1AE17D9A0079A240 /* Supporting Files */,
@@ -200,7 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADF64C571AE17D9A0079A240 /* Main.storyboard in Resources */,
+				ADF64C731AE180CE0079A240 /* menu_icon.png in Resources */,
 				ADF64C5C1AE17D9A0079A240 /* LaunchScreen.xib in Resources */,
+				ADF64C741AE180CE0079A240 /* menu_icon@2x.png in Resources */,
+				ADF64C761AE183EC0079A240 /* logo.jpeg in Resources */,
 				ADF64C591AE17D9A0079A240 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

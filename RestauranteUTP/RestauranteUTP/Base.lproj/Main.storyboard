@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="w57-Be-AvT">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Carta-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -15,11 +15,108 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bienvenido a la cafeteria de UTP, puedes realizar pedidos y conocer nuestro sitio web, ademas de la ubicacion" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EPa-1q-krZ">
+                                <rect key="frame" x="162" y="264" width="277" height="127"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="277" id="APQ-2g-OgN"/>
+                                    <constraint firstAttribute="height" constant="127" id="VWc-HN-9zz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hcd-dt-UPd">
+                                <rect key="frame" x="228" y="399" width="144" height="30"/>
+                                <state key="normal" title="Ver Categorias Menu">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="N80-wF-hDE">
+                                <rect key="frame" x="183" y="95" width="234" height="143"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="143" id="4kf-er-i2J"/>
+                                    <constraint firstAttribute="width" constant="234" id="QxI-FN-VUw"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N80-wF-hDE" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="75" id="0Qk-QD-kIl"/>
+                            <constraint firstItem="hcd-dt-UPd" firstAttribute="centerX" secondItem="EPa-1q-krZ" secondAttribute="centerX" constant="-0.5" id="2oJ-RI-rfj"/>
+                            <constraint firstItem="hcd-dt-UPd" firstAttribute="top" secondItem="EPa-1q-krZ" secondAttribute="bottom" constant="8" id="Als-m9-klw"/>
+                            <constraint firstAttribute="centerX" secondItem="N80-wF-hDE" secondAttribute="centerX" id="Cd9-Xh-wqJ"/>
+                            <constraint firstItem="N80-wF-hDE" firstAttribute="centerX" secondItem="EPa-1q-krZ" secondAttribute="centerX" constant="-0.5" id="PKu-es-E5H"/>
+                            <constraint firstItem="EPa-1q-krZ" firstAttribute="top" secondItem="N80-wF-hDE" secondAttribute="bottom" constant="26" id="jJI-2Z-mlD"/>
+                        </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Carta" image="menu_icon.png" id="WfX-ac-YZl"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="112" y="-759"/>
+        </scene>
+        <!--Mapa-->
+        <scene sceneID="to3-Zs-ZyQ">
+            <objects>
+                <viewController id="aaV-a2-iza" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mci-Q4-n8Y"/>
+                        <viewControllerLayoutGuide type="bottom" id="n2O-cA-mQc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BSv-pc-H6i">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.96260909260000005" blue="0.73635042490000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Mapa" id="2Kd-Bb-Kdd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OVm-Ln-uao" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="49" y="878"/>
+        </scene>
+        <!--Web UTP-->
+        <scene sceneID="1YA-hf-jf9">
+            <objects>
+                <viewController id="BPA-it-PSZ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Ja-rd-g89"/>
+                        <viewControllerLayoutGuide type="bottom" id="qgA-W0-Irn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OVB-Nl-HBJ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.1884988746" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Web UTP" id="0yH-mb-Wzy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ss1-hH-Dmb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="658" y="121"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2cZ-pc-aya">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="w57-Be-AvT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="OLB-NK-JQG">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="e6X-rj-nrj"/>
+                        <segue destination="BPA-it-PSZ" kind="relationship" relationship="viewControllers" id="3yy-UM-Vgo"/>
+                        <segue destination="aaV-a2-iza" kind="relationship" relationship="viewControllers" id="9Pg-mV-Ncl"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YNo-1Z-09L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="121"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logo.jpeg" width="275" height="183"/>
+        <image name="menu_icon.png" width="16" height="16"/>
+    </resources>
 </document>

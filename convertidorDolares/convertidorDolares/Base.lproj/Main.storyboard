@@ -29,11 +29,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="zmI-cp-PeB">
-                                <rect key="frame" x="16" y="121" width="568" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LG4-Mw-jMn">
                                 <rect key="frame" x="219" y="171" width="163" height="30"/>
                                 <state key="normal" title="Convertir Pesos a Dolar">
@@ -63,23 +58,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="zmI-cp-PeB">
+                                <rect key="frame" x="16" y="135" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="LG4-Mw-jMn" firstAttribute="centerX" secondItem="K4h-qT-O8n" secondAttribute="centerX" id="21u-G2-QS3"/>
                             <constraint firstItem="KJd-M4-aok" firstAttribute="centerX" secondItem="ONb-gc-Xlr" secondAttribute="centerX" constant="0.5" id="75y-6r-v05"/>
-                            <constraint firstItem="LG4-Mw-jMn" firstAttribute="centerX" secondItem="zmI-cp-PeB" secondAttribute="centerX" constant="0.5" id="7et-rk-Jxo"/>
-                            <constraint firstItem="zmI-cp-PeB" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="97p-4u-rFx"/>
+                            <constraint firstItem="LG4-Mw-jMn" firstAttribute="top" secondItem="zmI-cp-PeB" secondAttribute="bottom" constant="6" id="CYQ-Dh-1Qz"/>
                             <constraint firstItem="KJd-M4-aok" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="17" id="Nf5-AM-zHm"/>
                             <constraint firstItem="K4h-qT-O8n" firstAttribute="top" secondItem="LG4-Mw-jMn" secondAttribute="bottom" constant="8" id="PTh-O7-1VW"/>
-                            <constraint firstItem="zmI-cp-PeB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="R6O-NP-YSw"/>
+                            <constraint firstItem="zmI-cp-PeB" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="Pcb-mh-i8z"/>
                             <constraint firstItem="ONb-gc-Xlr" firstAttribute="top" secondItem="KJd-M4-aok" secondAttribute="bottom" constant="34" id="SjZ-Mu-uh7"/>
+                            <constraint firstItem="zmI-cp-PeB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="THW-5h-N6p"/>
                             <constraint firstAttribute="centerX" secondItem="KJd-M4-aok" secondAttribute="centerX" constant="-0.5" id="Vcw-ZX-zUU"/>
+                            <constraint firstItem="LG4-Mw-jMn" firstAttribute="centerX" secondItem="zmI-cp-PeB" secondAttribute="centerX" constant="0.5" id="jg2-cg-eMX"/>
                             <constraint firstItem="w9l-bG-i2U" firstAttribute="top" secondItem="K4h-qT-O8n" secondAttribute="bottom" constant="19" id="k5C-g1-LNd"/>
+                            <constraint firstItem="zmI-cp-PeB" firstAttribute="top" secondItem="ONb-gc-Xlr" secondAttribute="bottom" constant="22" id="kL6-2U-njE"/>
                             <constraint firstItem="w9l-bG-i2U" firstAttribute="centerX" secondItem="K4h-qT-O8n" secondAttribute="centerX" id="kcp-WF-DzW"/>
-                            <constraint firstItem="zmI-cp-PeB" firstAttribute="top" secondItem="ONb-gc-Xlr" secondAttribute="bottom" constant="8" id="tAh-UB-6jS"/>
-                            <constraint firstItem="zmI-cp-PeB" firstAttribute="centerX" secondItem="ONb-gc-Xlr" secondAttribute="centerX" id="tJo-E0-pMA"/>
-                            <constraint firstItem="LG4-Mw-jMn" firstAttribute="top" secondItem="zmI-cp-PeB" secondAttribute="bottom" constant="20" id="vu6-G8-IFD"/>
                         </constraints>
                     </view>
                     <connections>
