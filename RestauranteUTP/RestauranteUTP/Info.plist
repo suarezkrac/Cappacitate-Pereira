@@ -22,6 +22,10 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Su ubicacion se utilizara para fines academicos</string>
+	<key>NSLocationWhenUsageDescription</key>
+	<string>Todavia estamos obteniendo su ubicacion</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

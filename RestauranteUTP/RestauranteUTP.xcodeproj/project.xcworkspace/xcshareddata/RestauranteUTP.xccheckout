@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>DEED3A1F-5F98-4355-99F9-FBAF42E9DF99</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>RestauranteUTP</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>1E29946D702A1C10A7764F0787B861822E1BB5AF</key>
 		<string>https://github.com/suarezkrac/Cappacitate-Pereira.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>RestauranteUTP/RestauranteUTP.xcodeproj/project.xcworkspace</string>
+	<string>RestauranteUTP/RestauranteUTP.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1E29946D702A1C10A7764F0787B861822E1BB5AF</key>

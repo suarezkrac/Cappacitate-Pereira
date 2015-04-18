@@ -317,7 +317,7 @@
         <!--Mapa-->
         <scene sceneID="to3-Zs-ZyQ">
             <objects>
-                <viewController id="aaV-a2-iza" sceneMemberID="viewController">
+                <viewController id="aaV-a2-iza" customClass="MapaiOSViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mci-Q4-n8Y"/>
                         <viewControllerLayoutGuide type="bottom" id="n2O-cA-mQc"/>
@@ -325,9 +325,23 @@
                     <view key="view" contentMode="scaleToFill" id="BSv-pc-H6i">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="F9S-O7-aJC">
+                                <rect key="frame" x="16" y="20" width="568" height="523"/>
+                            </mapView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="0.96260909260000005" blue="0.73635042490000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="F9S-O7-aJC" firstAttribute="trailing" secondItem="BSv-pc-H6i" secondAttribute="trailingMargin" id="3dQ-6V-INW"/>
+                            <constraint firstItem="F9S-O7-aJC" firstAttribute="top" secondItem="mci-Q4-n8Y" secondAttribute="bottom" id="DGY-z9-kLC"/>
+                            <constraint firstItem="F9S-O7-aJC" firstAttribute="leading" secondItem="BSv-pc-H6i" secondAttribute="leadingMargin" id="joi-NX-Hzc"/>
+                            <constraint firstItem="n2O-cA-mQc" firstAttribute="top" secondItem="F9S-O7-aJC" secondAttribute="bottom" constant="8" id="kNQ-BN-LGK"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Mapa" id="2Kd-Bb-Kdd"/>
+                    <connections>
+                        <outlet property="mapa" destination="F9S-O7-aJC" id="6fg-KC-jlO"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OVm-Ln-uao" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -388,11 +402,31 @@
                         <segue destination="3Sa-OK-q6H" kind="relationship" relationship="viewControllers" id="e6X-rj-nrj"/>
                         <segue destination="BPA-it-PSZ" kind="relationship" relationship="viewControllers" id="3yy-UM-Vgo"/>
                         <segue destination="aaV-a2-iza" kind="relationship" relationship="viewControllers" id="9Pg-mV-Ncl"/>
+                        <segue destination="mFH-25-VbR" kind="relationship" relationship="viewControllers" id="Bja-wy-gZH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YNo-1Z-09L" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-620" y="121"/>
+        </scene>
+        <!--Mapa Google View Controller-->
+        <scene sceneID="0bS-Oz-Xxn">
+            <objects>
+                <viewController id="mFH-25-VbR" customClass="MapaGoogleViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sjh-AP-lth"/>
+                        <viewControllerLayoutGuide type="bottom" id="r2G-tv-WFV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qkm-hO-ufD">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="wFN-OG-HyA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hTy-09-qpC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-820" y="-705"/>
         </scene>
         <!--Carta-->
         <scene sceneID="a4K-V9-AfX">
