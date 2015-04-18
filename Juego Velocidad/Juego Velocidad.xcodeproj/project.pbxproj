@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADC1A2BE1AE2E5B10068F57F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1A2BD1AE2E5B10068F57F /* AppDelegate.swift */; };
+		ADC1A2C01AE2E5B10068F57F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1A2BF1AE2E5B10068F57F /* ViewController.swift */; };
+		ADC1A2C31AE2E5B10068F57F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC1A2C11AE2E5B10068F57F /* Main.storyboard */; };
+		ADC1A2C51AE2E5B10068F57F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC1A2C41AE2E5B10068F57F /* Images.xcassets */; };
+		ADC1A2C81AE2E5B10068F57F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADC1A2C61AE2E5B10068F57F /* LaunchScreen.xib */; };
+		ADC1A2D41AE2E5B10068F57F /* Juego_VelocidadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC1A2D31AE2E5B10068F57F /* Juego_VelocidadTests.swift */; };
+		ADC1A2DE1AE2E6710068F57F /* button-155149_640.png in Resources */ = {isa = PBXBuildFile; fileRef = ADC1A2DD1AE2E6710068F57F /* button-155149_640.png */; };
+		ADC1A2E21AE2EEF50068F57F /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = ADC1A2E11AE2EEF50068F57F /* User.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADC1A2CE1AE2E5B10068F57F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADC1A2B01AE2E5B10068F57F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADC1A2B71AE2E5B10068F57F;
+			remoteInfo = "Juego Velocidad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADC1A2B81AE2E5B10068F57F /* Juego Velocidad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Juego Velocidad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC1A2BC1AE2E5B10068F57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC1A2BD1AE2E5B10068F57F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ADC1A2BF1AE2E5B10068F57F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ADC1A2C21AE2E5B10068F57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADC1A2C41AE2E5B10068F57F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADC1A2C71AE2E5B10068F57F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADC1A2CD1AE2E5B10068F57F /* Juego VelocidadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Juego VelocidadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADC1A2D21AE2E5B10068F57F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC1A2D31AE2E5B10068F57F /* Juego_VelocidadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Juego_VelocidadTests.swift; sourceTree = "<group>"; };
+		ADC1A2DD1AE2E6710068F57F /* button-155149_640.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-155149_640.png"; sourceTree = "<group>"; };
+		ADC1A2DF1AE2EEF50068F57F /* Juego Velocidad-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Juego Velocidad-Bridging-Header.h"; sourceTree = "<group>"; };
+		ADC1A2E01AE2EEF50068F57F /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		ADC1A2E11AE2EEF50068F57F /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADC1A2B51AE2E5B10068F57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC1A2CA1AE2E5B10068F57F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADC1A2AF1AE2E5B10068F57F = {
+			isa = PBXGroup;
+			children = (
+				ADC1A2E01AE2EEF50068F57F /* User.h */,
+				ADC1A2E11AE2EEF50068F57F /* User.m */,
+				ADC1A2DD1AE2E6710068F57F /* button-155149_640.png */,
+				ADC1A2BA1AE2E5B10068F57F /* Juego Velocidad */,
+				ADC1A2D01AE2E5B10068F57F /* Juego VelocidadTests */,
+				ADC1A2B91AE2E5B10068F57F /* Products */,
+				ADC1A2DF1AE2EEF50068F57F /* Juego Velocidad-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		ADC1A2B91AE2E5B10068F57F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1A2B81AE2E5B10068F57F /* Juego Velocidad.app */,
+				ADC1A2CD1AE2E5B10068F57F /* Juego VelocidadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADC1A2BA1AE2E5B10068F57F /* Juego Velocidad */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1A2BD1AE2E5B10068F57F /* AppDelegate.swift */,
+				ADC1A2BF1AE2E5B10068F57F /* ViewController.swift */,
+				ADC1A2C11AE2E5B10068F57F /* Main.storyboard */,
+				ADC1A2C41AE2E5B10068F57F /* Images.xcassets */,
+				ADC1A2C61AE2E5B10068F57F /* LaunchScreen.xib */,
+				ADC1A2BB1AE2E5B10068F57F /* Supporting Files */,
+			);
+			path = "Juego Velocidad";
+			sourceTree = "<group>";
+		};
+		ADC1A2BB1AE2E5B10068F57F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1A2BC1AE2E5B10068F57F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADC1A2D01AE2E5B10068F57F /* Juego VelocidadTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1A2D31AE2E5B10068F57F /* Juego_VelocidadTests.swift */,
+				ADC1A2D11AE2E5B10068F57F /* Supporting Files */,
+			);
+			path = "Juego VelocidadTests";
+			sourceTree = "<group>";
+		};
+		ADC1A2D11AE2E5B10068F57F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADC1A2D21AE2E5B10068F57F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADC1A2B71AE2E5B10068F57F /* Juego Velocidad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC1A2D71AE2E5B10068F57F /* Build configuration list for PBXNativeTarget "Juego Velocidad" */;
+			buildPhases = (
+				ADC1A2B41AE2E5B10068F57F /* Sources */,
+				ADC1A2B51AE2E5B10068F57F /* Frameworks */,
+				ADC1A2B61AE2E5B10068F57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Juego Velocidad";
+			productName = "Juego Velocidad";
+			productReference = ADC1A2B81AE2E5B10068F57F /* Juego Velocidad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADC1A2CC1AE2E5B10068F57F /* Juego VelocidadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADC1A2DA1AE2E5B10068F57F /* Build configuration list for PBXNativeTarget "Juego VelocidadTests" */;
+			buildPhases = (
+				ADC1A2C91AE2E5B10068F57F /* Sources */,
+				ADC1A2CA1AE2E5B10068F57F /* Frameworks */,
+				ADC1A2CB1AE2E5B10068F57F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADC1A2CF1AE2E5B10068F57F /* PBXTargetDependency */,
+			);
+			name = "Juego VelocidadTests";
+			productName = "Juego VelocidadTests";
+			productReference = ADC1A2CD1AE2E5B10068F57F /* Juego VelocidadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADC1A2B01AE2E5B10068F57F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Mintic;
+				TargetAttributes = {
+					ADC1A2B71AE2E5B10068F57F = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					ADC1A2CC1AE2E5B10068F57F = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = ADC1A2B71AE2E5B10068F57F;
+					};
+				};
+			};
+			buildConfigurationList = ADC1A2B31AE2E5B10068F57F /* Build configuration list for PBXProject "Juego Velocidad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADC1A2AF1AE2E5B10068F57F;
+			productRefGroup = ADC1A2B91AE2E5B10068F57F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADC1A2B71AE2E5B10068F57F /* Juego Velocidad */,
+				ADC1A2CC1AE2E5B10068F57F /* Juego VelocidadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADC1A2B61AE2E5B10068F57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC1A2C31AE2E5B10068F57F /* Main.storyboard in Resources */,
+				ADC1A2C81AE2E5B10068F57F /* LaunchScreen.xib in Resources */,
+				ADC1A2C51AE2E5B10068F57F /* Images.xcassets in Resources */,
+				ADC1A2DE1AE2E6710068F57F /* button-155149_640.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC1A2CB1AE2E5B10068F57F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADC1A2B41AE2E5B10068F57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC1A2C01AE2E5B10068F57F /* ViewController.swift in Sources */,
+				ADC1A2BE1AE2E5B10068F57F /* AppDelegate.swift in Sources */,
+				ADC1A2E21AE2EEF50068F57F /* User.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC1A2C91AE2E5B10068F57F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADC1A2D41AE2E5B10068F57F /* Juego_VelocidadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADC1A2CF1AE2E5B10068F57F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADC1A2B71AE2E5B10068F57F /* Juego Velocidad */;
+			targetProxy = ADC1A2CE1AE2E5B10068F57F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADC1A2C11AE2E5B10068F57F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC1A2C21AE2E5B10068F57F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADC1A2C61AE2E5B10068F57F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADC1A2C71AE2E5B10068F57F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADC1A2D51AE2E5B10068F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADC1A2D61AE2E5B10068F57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADC1A2D81AE2E5B10068F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Juego Velocidad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Juego Velocidad-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADC1A2D91AE2E5B10068F57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Juego Velocidad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Juego Velocidad-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		ADC1A2DB1AE2E5B10068F57F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Juego VelocidadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juego Velocidad.app/Juego Velocidad";
+			};
+			name = Debug;
+		};
+		ADC1A2DC1AE2E5B10068F57F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Juego VelocidadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Juego Velocidad.app/Juego Velocidad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADC1A2B31AE2E5B10068F57F /* Build configuration list for PBXProject "Juego Velocidad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC1A2D51AE2E5B10068F57F /* Debug */,
+				ADC1A2D61AE2E5B10068F57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADC1A2D71AE2E5B10068F57F /* Build configuration list for PBXNativeTarget "Juego Velocidad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC1A2D81AE2E5B10068F57F /* Debug */,
+				ADC1A2D91AE2E5B10068F57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADC1A2DA1AE2E5B10068F57F /* Build configuration list for PBXNativeTarget "Juego VelocidadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADC1A2DB1AE2E5B10068F57F /* Debug */,
+				ADC1A2DC1AE2E5B10068F57F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADC1A2B01AE2E5B10068F57F /* Project object */;
+}
