@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vzJ-96-Pgl">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Camara" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tgV-OX-KEK">
+                                <rect key="frame" x="270" y="84" width="61" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NEe-1C-hvb">
+                                <rect key="frame" x="161" y="130" width="278" height="309"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="309" id="c1f-gd-mvO"/>
+                                    <constraint firstAttribute="width" constant="278" id="epR-RK-4Ga"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tgV-OX-KEK" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="T0k-gy-2m5"/>
+                            <constraint firstItem="NEe-1C-hvb" firstAttribute="centerX" secondItem="tgV-OX-KEK" secondAttribute="centerX" constant="-0.5" id="Zg0-I4-SxJ"/>
+                            <constraint firstAttribute="centerX" secondItem="tgV-OX-KEK" secondAttribute="centerX" constant="-0.5" id="bqW-Ek-vhf"/>
+                            <constraint firstItem="NEe-1C-hvb" firstAttribute="top" secondItem="tgV-OX-KEK" secondAttribute="bottom" constant="25" id="iPV-KB-5CL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hL1-WX-c42">
+                        <barButtonItem key="leftBarButtonItem" systemItem="organize" id="3Xq-3G-4rY">
+                            <connections>
+                                <action selector="photoAlbum:" destination="vXZ-lx-hvc" id="DeM-Ri-Ik2"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="camera" id="XQq-jM-eoX">
+                            <connections>
+                                <action selector="photoCamera:" destination="vXZ-lx-hvc" id="Y5D-KS-2P3"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="cameraButton" destination="XQq-jM-eoX" id="fVy-XL-eXJ"/>
+                        <outlet property="foto" destination="NEe-1C-hvb" id="fr6-cb-tug"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1116" y="-367"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Yp0-9R-ifL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="vzJ-96-Pgl" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Jed-XX-tAy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="kn6-kh-aUf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gFl-97-g4K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="407" y="-388"/>
+        </scene>
+    </scenes>
+</document>
